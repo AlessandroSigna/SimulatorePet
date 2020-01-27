@@ -1,0 +1,163 @@
+#gump_pet {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    width: 568px;
+    height: 514px;
+    background-image: url("../images/spp/gumppet.png");
+    margin-left: -284px;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Lucida Console", Monaco, monospace;
+    cursor: url('../images/spp/cursor.png'), auto;
+}
+
+.stat {
+    position: absolute;
+    left: 130px;
+}
+
+.button {
+    position: absolute;
+}
+
+.point {
+    position: absolute;
+    left: 180px;
+}
+
+#pet_name {
+    position: absolute;
+    font-weight: bold;
+    left: 28px;
+    top: 455px;
+    width: 212px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3.5px double #524229;
+    background-image: url("../images/spp/background.png");
+    text-align: center;
+}
+
+#reset {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    width: 63px;
+    height: 32px;
+    background-image: url("../images/spp/default.png");
+}
+
+#reset:hover {
+    background-image: url("../images/spp/defaulthover.png");
+}
+
+#reset:active {
+    background-image: url("../images/spp/defaultactive.png");
+}
+
+#pet_list {
+    position: absolute;
+    left: 158px;
+    top: 17px;
+    width: 252px;
+    height: 40px;
+}
+
+#pet_list:hover ul {
+    display: block;
+}
+
+#pet_list ul {
+    background-image: url("../images/spp/background.png");
+    position: absolute;
+    top: 22px;
+    height: auto;
+    max-height: 277px;
+    overflow-x: hidden;
+    border: 3.5px double #524229;
+    border-top-style: none;
+    display: none;
+    text-align: center;
+    z-index: 9999;
+}
+
+#pet_list li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-left: -28px;
+    padding: 2px;
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+#pet_list li:hover {
+    font-weight: bold;
+}
+
+#pet_list li:last-of-type {
+    padding-bottom: 10px;
+}
+
+.ability_img {
+    position: absolute;
+    left: 280px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.ability_name {
+    position: absolute;
+    left: 340px;
+}
+
+.ability_button {
+    position: absolute;
+    left: 470px;
+}
+
+.ability_help {
+    position: absolute;
+    left: 500px;
+}
+
+.ability_info {
+    position: absolute;
+    left: 28px;
+    top: 67px;
+    width: 213px;
+    height: 244px;
+    background-image: url("../images/spp/background.png");
+    border: 3.5px double #524229;
+    display: none;
+}
+
+.ability_info_name {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3.5px double #524229;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ability_info_description {
+    font-size: 12px;
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ability_info_cost {
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-top: 3.5px double #524229;
+}

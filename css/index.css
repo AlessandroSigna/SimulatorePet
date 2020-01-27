@@ -1,0 +1,193 @@
+body {
+    background-color: #2D2D2D;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+@keyframes anim {
+    0% {
+        text-shadow: 3px 2px #2d9b4c;
+    }
+    50% {
+        text-shadow: 3px 2px #2d2d2d;
+    }
+    100% {
+        text-shadow: 3px 2px #2d9b4c;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #FFFFFF;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.error {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.error_description {
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+    top: 800px;
+    left: 35%;
+    width: 30%;
+    font-size: 15px;
+    text-align: center;
+    color: #2d5b9b;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a:link,
+:visited {
+    color: #FFFFFF;
+}
+
+.list {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    background-color: #1e1e1e;
+    border: 2px solid #2d9b4c;
+    border-radius: 10px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.list li {
+    position: relative;
+    list-style: none;
+    margin-right: 40px;
+    line-height: 200%;
+    font-size: 15px;
+}
+
+.list .classi {
+    display: none;
+}
+
+.list .classi li {
+    margin-left: -25px;
+    font-size: 13px;
+}
+
+.classi_label:hover+.classi,
+.classi:hover {
+    display: block;
+}
+
+.list a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.list a:link,
+:visited {
+    color: #FFFFFF;
+}
+
+.list a:hover {
+    color: #2d9b4c;
+}
+
+.main {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    background-color: #1e1e1e;
+    border: 2px solid #2d9b4c;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.main .inner_main {
+    margin: 30px 0px 15px 30px;
+}
+
+.main h2 {
+    top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #2d9b4c;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: -15px;
+}
+
+.main ul h2 {
+    top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #2d9b4c;
+    font-size: 25px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main ul li {
+    padding-bottom: 15px;
+    padding-right: 45px;
+}
+
+.main ul li::before {
+    content: "\2022";
+    color: #2d9b4c;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: -10px;
+}
+
+.tablefirst {
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.main td {
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.bonus {
+    color: #2d9b4c;
+    padding-right: 25px;
+}
+
+.malus {
+    color: #a83232;
+    padding-right: 25px;
+}
+
+.ar {
+    color: #2d5b9b;
+    padding-right: 25px;
+}
+
+.lega {
+    padding-right: 25px;
+}
