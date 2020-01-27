@@ -86,6 +86,8 @@
 			<li onclick='update_stat(this,15,15,"Veleno:2000/Devastante:1250/Cavalcatura:3000/Turbinante:1250/Soffio:500/Instancabile:2000");'>Chimera</li>
 			<li onclick='update_stat(this,15,15,"Difesa:750/Segugio:500/Lacerante:1000/Soffio:500/Cavalcatura:3000/Instancabile:2000");'>Incubo</li>
 			<li onclick='update_stat(this,15,15,"Segugio:500/Lacerante:1000/Instancabile:2000/Agilità:1500/Disturbo:1250/Cavalcatura:3000");'>Rapace Celestiale</li>
+			<li onclick='update_stat(this,15,15,"Segugio:500/Branco:1500/Manovra:500/Agilità:3000/Schivare:3000/Furtività:1000/Soffio:500");'>Segugio Infernale</li>
+			<li onclick='update_stat(this,15,15,"Segugio:500/Branco:1500/Manovra:500/Agilità:3000/Schivare:3000/Furtività:1000/Soffio:500");'>Lupo Glaciale</li>
 		</ul>
 	</div>
 </div>
